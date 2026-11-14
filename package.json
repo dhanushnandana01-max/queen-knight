@@ -1,0 +1,11 @@
+{
+  "name": "queen-knight-web",
+  "version": "1.0.0",
+  "description": "Queen \u00d7 Knight: play against an alpha\u2013beta AI in the browser",
+  "private": true,
+  "scripts": {
+    "test": "node tests/test_engine.js && node tests/test_ui_smoke.js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "license": "UNLICENSED"
+}
